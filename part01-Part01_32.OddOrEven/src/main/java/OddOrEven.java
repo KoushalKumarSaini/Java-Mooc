@@ -20,5 +20,12 @@ public class OddOrEven {
         // int luku = 8
         // System.out.println( luku%2 );
         // So, by taking the modulo of a number and two you can find out if it is even or odd !
+        System.out.println("Give number:");
+        int n = scan.nextInt();
+        if (n % 2 == 0){
+            System.out.println("Number " + n + " is even.");
+        } else{
+            System.out.println("Number " + n + " is odd.");
+        }
     }
 }
